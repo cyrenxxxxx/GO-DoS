@@ -837,7 +837,7 @@ func main() {
 	if len(os.Args) < 4 {
 		printBanner()
 		fmt.Println("Usage: go run main.go <target> <seconds> <GET|POST|HEAD|SLOW> [proxy]")
-		fmt.Println("   [proxy] → kahit anong text, gagamit ng ProxyScrape API")
+		fmt.Println("   [proxy] → optional if you want to use proxy (PROXYSCAPE) ")
 		os.Exit(1)
 	}
 
