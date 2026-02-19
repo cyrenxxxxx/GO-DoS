@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "=== GO DOS TOOL SETUP (HTTP/2 + HTTP/1.1 ONLY) ==="
+echo "=== GO DENIAL OF SERVICE SETUP ==="
 
 # Download main.go from GitHub
 echo "Downloading main.go..."
