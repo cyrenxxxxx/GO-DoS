@@ -1680,7 +1680,6 @@ func attackWorker(target, host, mode string, done chan struct{}, stats *atomicCo
 
 				stats.inc()
 				time.Sleep(1 * time.Second)
-				continue
 			}
 
 			if mode == "GET" {
