@@ -1649,7 +1649,6 @@ func attackWorker(target, host, mode string, done chan struct{}, stats *atomicCo
 				conn, err := net.DialTimeout("tcp", host+":"+port, 5*time.Second)
 				if err != nil {
 					time.Sleep(200 * time.Millisecond)
-					continue
 				}
 				defer conn.Close()
 
