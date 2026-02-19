@@ -829,7 +829,7 @@ func main() {
 		if len(proxies) > 0 {
 			go proxyRefresher()
 		} else {
-			fmt.Println("[-] Walang nakuha na proxy, tatakbo nang walang proxy")
+			fmt.Println("[-] No Proxy Detected, Running Without Proxy")
 			useProxy = false
 		}
 	}
@@ -847,7 +847,7 @@ func main() {
 
 	if mode != "GET" && mode != "POST" && mode != "HEAD" && mode != "SLOW" {
 		printBanner()
-		fmt.Println("Mode dapat GET, POST, HEAD, o SLOW lang")
+		fmt.Println("Mode GET, POST, HEAD, and SLOW")
 		os.Exit(1)
 	}
 
