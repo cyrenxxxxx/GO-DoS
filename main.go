@@ -1480,7 +1480,6 @@ func main() {
 					tlsHTTPWorker(target, host, port, mode, done, stats, useProxy)
 				}(i)
 			}
-			continue // Skip the generic loop below
 		}
 		
 		for i := 0; i < workers; i++ {
