@@ -19,7 +19,7 @@ SEP="━━━━━━━━━━━━━━━━━━━━━━━━━
 
 clear
 echo -e "${CYAN}${SEP}${NC}"
-echo -e "${WHITE}  GO DOS TOOL SETUP (HTTP/2 + HTTP/1.1 ONLY)${NC}"
+echo -e "${WHITE}  DENIAL SERVICE OF GO${NC}"
 echo -e "${CYAN}${SEP}${NC}"
 echo
 
