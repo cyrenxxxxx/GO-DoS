@@ -607,13 +607,14 @@ func getNextColor() string {
 func printBanner() {
 	color := getNextColor()
 	fmt.Print(color)
-	fmt.Println("  ::::'######::::'#######:::::   ")
-	fmt.Println(" :::'##... ##::'##.... ##::::  ")
-	fmt.Println(" ::: ##:::..::: ##:::: ##::::  ")
-	fmt.Println(" ::: ##::'####: ##:::: ##::::  ")
-	fmt.Println(" ::: ##::: ##:: ##:::: ##::::  ")
-	fmt.Println("   ::: ##::: ##:: ##:::: ##::::   ")
-   fmt.Println("   ::::......:::::.......::::::   ")
+	fmt.Println(" ::::'######::::'#######::::: ")
+	fmt.Println(" :::'##... ##::'##.... ##:::: ")
+	fmt.Println(" ::: ##:::..::: ##:::: ##:::: ")
+	fmt.Println(" ::: ##::'####: ##:::: ##:::: ")
+	fmt.Println(" ::: ##::: ##:: ##:::: ##:::: ")
+	fmt.Println(" ::: ##::: ##:: ##:::: ##:::: ")
+    fmt.Println(" :::. ######:::. #######::::: ")
+	fmt.Println(" ::::......:::::.......:::::: ")
 	fmt.Println("\033[0m")
 }
 
